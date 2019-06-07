@@ -1,0 +1,4 @@
+-- Curso de VHDL #5
+-- Exemplo de um somador completo
+-- Autor: Felipe W. D. Pfrimer
+-- Data: 02/06/2019
