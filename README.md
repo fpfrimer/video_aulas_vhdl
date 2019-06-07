@@ -1,2 +1,2 @@
-# video_aulas_vhdl
+# Códigos das videoaulas do Youtube
 Códigos das vídeo-aulas do youtube
