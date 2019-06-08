@@ -1,0 +1,46 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do and_gate_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_quartus_prime/and_gate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:04:20 on Jun 08,2019
+# vcom -reportprogress 300 -93 -work work D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_quartus_prime/and_gate.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity and_gate
+# -- Compiling architecture main of and_gate
+# End time: 12:04:20 on Jun 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.and_gate
+# vsim work.and_gate 
+# Start time: 12:04:28 on Jun 08,2019
+# Loading std.standard
+# Loading work.and_gate(main)
+do D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_quartus_prime/simulation/modelsim/wave.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# 0
+add wave -position insertpoint  \
+sim:/and_gate/z
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:07:32 on Jun 08,2019, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+wave editwrite -file D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_quartus_prime/simulation/modelsim/wave.do
