@@ -1,9 +1,3 @@
--- Curso de VHDL #6
--- Exemplo de uma porta and (Aula 2) utilizado
--- na apresentação do quartus prime.
--- Autor: Felipe W. D. Pfrimer
--- Data: 08/06/2019
-
 -- Bibliotecas e pacotes
 
 -- Entidade
@@ -21,5 +15,3 @@ begin
     z <= a and b;
     
 end architecture main;
-
--- Configuração 
