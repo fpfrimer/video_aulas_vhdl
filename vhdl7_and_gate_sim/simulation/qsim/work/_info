@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/simulation/qsim
+Eand_gate
+Z1 w1560169000
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z9 8and_gate.vho
+Z10 Fand_gate.vho
+l0
+L36
+V29ObV`BFkLooQSKU>IVDe1
+!s100 1AdzP0YNlP71FCOSCO?G72
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1560169001
+!i10b 1
+Z13 !s108 1560169001.000000
+Z14 !s90 -work|work|and_gate.vho|
+Z15 !s107 and_gate.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 8 and_gate 0 22 29ObV`BFkLooQSKU>IVDe1
+l64
+L44
+VAgz=eJTP2kZk3YYWcm@TU2
+!s100 8FJ2FXoC]ok[IlKFjZP[53
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eand_gate_vhd_vec_tst
+Z18 w1560168998
+R6
+R7
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L31
+VHW32dR7ia4R[1:B1_dj;]1
+!s100 ;moSH[b9UeU7<SF]AXiH[2
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aand_gate_arch
+R6
+R7
+Z23 DEx4 work 20 and_gate_vhd_vec_tst 0 22 HW32dR7ia4R[1:B1_dj;]1
+l46
+L33
+VMbik6ReO^40]12RkO59;c3
+!s100 fHHPcg:`_UEz[bFcN2d2T1
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17

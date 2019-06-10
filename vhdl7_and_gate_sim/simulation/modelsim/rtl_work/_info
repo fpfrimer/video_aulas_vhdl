@@ -7,23 +7,23 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_and_gate_sim/simulation/modelsim
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/simulation/modelsim
 Eand_gate
 Z1 w1560098717
 R0
-Z2 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_and_gate_sim/and_gate.vhd
-Z3 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_and_gate_sim/and_gate.vhd
+Z2 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/and_gate.vhd
+Z3 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/and_gate.vhd
 l0
 L4
 VF0>0Q8?DL2O_=Bm>imjXf2
 !s100 @M<;8QC:dQ_Z=`R8KXbg70
 Z4 OV;C;10.5b;63
 31
-Z5 !s110 1560098865
+Z5 !s110 1560167988
 !i10b 1
-Z6 !s108 1560098865.000000
-Z7 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_and_gate_sim/and_gate.vhd|
-Z8 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl6_and_gate_sim/and_gate.vhd|
+Z6 !s108 1560167988.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/and_gate.vhd|
+Z8 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/and_gate.vhd|
 !i113 1
 Z9 o-93 -work work
 Z10 tExplicit 1 CvgOpt 0

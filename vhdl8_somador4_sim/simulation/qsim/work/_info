@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl8_somador4_sim/simulation/qsim
+vsomador
+Z1 !s110 1560170487
+!i10b 1
+!s100 UF:=fO@YPoJ50jA^QL:]j3
+Io<T7H27o]3JfSj2<?5M=C1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1560170486
+8somador.vo
+Fsomador.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1560170487.000000
+!s107 somador.vo|
+!s90 -work|work|somador.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+Esomador_vhd_vec_tst
+Z7 w1560170419
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8Waveform.vwf.vht
+Z11 FWaveform.vwf.vht
+l0
+L31
+VjRZ4A=aH8jg;:UQB9K31H2
+!s100 5=zBnPHmIjA`R^i?e=PO70
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1560170422
+!i10b 1
+Z14 !s108 1560170421.000000
+Z15 !s90 -work|work|Waveform.vwf.vht|
+Z16 !s107 Waveform.vwf.vht|
+!i113 1
+R5
+Z17 tExplicit 1 CvgOpt 0
+Asomador_arch
+R8
+R9
+DEx4 work 19 somador_vhd_vec_tst 0 22 jRZ4A=aH8jg;:UQB9K31H2
+l46
+L33
+VlWZBnFf>IefZ3TckQSNEi2
+!s100 M[e2Dflll_z^UznTP8=CA3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R5
+R17
+vsomador_vlg_vec_tst
+R1
+!i10b 1
+!s100 2AfON6N>1`a7hLBDKfjGz2
+I]05I4MUHO>NFzPZ9BRNC[1
+R2
+R0
+w1560170484
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

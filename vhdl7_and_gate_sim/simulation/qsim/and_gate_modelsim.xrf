@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/and_gate.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/vhdl7_and_gate_sim/db/and_gate.cbx.xml
+design_name = and_gate
+instance = comp, \z~output\, z~output, and_gate, 1
+instance = comp, \a~input\, a~input, and_gate, 1
+instance = comp, \b~input\, b~input, and_gate, 1
+instance = comp, \z~0\, z~0, and_gate, 1
