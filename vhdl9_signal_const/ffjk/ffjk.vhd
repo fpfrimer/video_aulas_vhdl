@@ -3,6 +3,7 @@
 -- Autor: Felipe W. D. Pfrimer
 -- Data: 10/06/2019
 
+-- Entidade para um Flip-flop JK
 entity ffjk is
   port (
     j, k, clk   :   in      bit;
@@ -10,6 +11,7 @@ entity ffjk is
   ) ;
 end ffjk;
 
+-- Arquitetura baseada na figura "ffjk.png"
 architecture main of ffjk is
 
     signal a :  bit_vector(0 to 5);
