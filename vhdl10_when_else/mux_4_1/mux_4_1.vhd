@@ -24,4 +24,4 @@ begin
             D2 when sel = "10" else
             D3;
 
-end main ; -- main
+end main ; -- main 
