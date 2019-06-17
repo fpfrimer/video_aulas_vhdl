@@ -1,0 +1,304 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/17/2019 08:31:07"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          ula
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module ula_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [7:0] Ai;
+reg [7:0] Bi;
+reg M;
+reg S0;
+reg S1;
+// wires                                               
+wire [7:0] Fi;
+
+// assign statements (if any)                          
+ula i1 (
+// port map - connection between master ports and signals/registers   
+	.Ai(Ai),
+	.Bi(Bi),
+	.Fi(Fi),
+	.M(M),
+	.S0(S0),
+	.S1(S1)
+);
+initial 
+begin 
+#1000000 $stop;
+end 
+// Ai[ 7 ]
+initial
+begin
+	Ai[7] = 1'b0;
+	Ai[7] = #50000 1'b1;
+	Ai[7] = #50000 1'b0;
+	Ai[7] = #50000 1'b1;
+	Ai[7] = #50000 1'b0;
+	Ai[7] = #150000 1'b1;
+	Ai[7] = #150000 1'b0;
+	Ai[7] = #50000 1'b1;
+	Ai[7] = #200000 1'b0;
+	Ai[7] = #50000 1'b1;
+	Ai[7] = #150000 1'b0;
+end 
+// Ai[ 6 ]
+initial
+begin
+	Ai[6] = 1'b1;
+	Ai[6] = #50000 1'b0;
+	Ai[6] = #100000 1'b1;
+	Ai[6] = #50000 1'b0;
+	Ai[6] = #50000 1'b1;
+	Ai[6] = #50000 1'b0;
+	Ai[6] = #200000 1'b1;
+	Ai[6] = #100000 1'b0;
+	Ai[6] = #150000 1'b1;
+	Ai[6] = #100000 1'b0;
+	Ai[6] = #50000 1'b1;
+end 
+// Ai[ 5 ]
+initial
+begin
+	Ai[5] = 1'b0;
+	Ai[5] = #50000 1'b1;
+	Ai[5] = #150000 1'b0;
+	Ai[5] = #50000 1'b1;
+	Ai[5] = #50000 1'b0;
+	Ai[5] = #250000 1'b1;
+	Ai[5] = #50000 1'b0;
+	Ai[5] = #100000 1'b1;
+	Ai[5] = #50000 1'b0;
+	Ai[5] = #100000 1'b1;
+end 
+// Ai[ 4 ]
+initial
+begin
+	Ai[4] = 1'b0;
+	Ai[4] = #150000 1'b1;
+	Ai[4] = #50000 1'b0;
+	Ai[4] = #50000 1'b1;
+	Ai[4] = #50000 1'b0;
+	Ai[4] = #50000 1'b1;
+	Ai[4] = #150000 1'b0;
+	Ai[4] = #50000 1'b1;
+	Ai[4] = #50000 1'b0;
+	Ai[4] = #50000 1'b1;
+	Ai[4] = #100000 1'b0;
+	Ai[4] = #50000 1'b1;
+	Ai[4] = #50000 1'b0;
+	Ai[4] = #50000 1'b1;
+end 
+// Ai[ 3 ]
+initial
+begin
+	Ai[3] = 1'b1;
+	Ai[3] = #50000 1'b0;
+	Ai[3] = #50000 1'b1;
+	Ai[3] = #100000 1'b0;
+	Ai[3] = #100000 1'b1;
+	Ai[3] = #300000 1'b0;
+	Ai[3] = #100000 1'b1;
+	Ai[3] = #50000 1'b0;
+end 
+// Ai[ 2 ]
+initial
+begin
+	Ai[2] = 1'b0;
+	Ai[2] = #100000 1'b1;
+	Ai[2] = #50000 1'b0;
+	Ai[2] = #50000 1'b1;
+	Ai[2] = #50000 1'b0;
+	Ai[2] = #50000 1'b1;
+	Ai[2] = #150000 1'b0;
+	Ai[2] = #50000 1'b1;
+	Ai[2] = #50000 1'b0;
+	Ai[2] = #200000 1'b1;
+	Ai[2] = #150000 1'b0;
+	Ai[2] = #50000 1'b1;
+end 
+// Ai[ 1 ]
+initial
+begin
+	Ai[1] = 1'b1;
+	Ai[1] = #150000 1'b0;
+	Ai[1] = #50000 1'b1;
+	Ai[1] = #300000 1'b0;
+	Ai[1] = #150000 1'b1;
+	Ai[1] = #100000 1'b0;
+	Ai[1] = #150000 1'b1;
+	Ai[1] = #50000 1'b0;
+end 
+// Ai[ 0 ]
+initial
+begin
+	Ai[0] = 1'b0;
+	Ai[0] = #50000 1'b1;
+	Ai[0] = #200000 1'b0;
+	Ai[0] = #200000 1'b1;
+	Ai[0] = #50000 1'b0;
+	Ai[0] = #50000 1'b1;
+	Ai[0] = #50000 1'b0;
+	Ai[0] = #100000 1'b1;
+end 
+// Bi[ 7 ]
+initial
+begin
+	Bi[7] = 1'b0;
+	Bi[7] = #100000 1'b1;
+	Bi[7] = #100000 1'b0;
+	Bi[7] = #50000 1'b1;
+	Bi[7] = #100000 1'b0;
+	Bi[7] = #150000 1'b1;
+	Bi[7] = #50000 1'b0;
+	Bi[7] = #50000 1'b1;
+	Bi[7] = #250000 1'b0;
+	Bi[7] = #50000 1'b1;
+	Bi[7] = #50000 1'b0;
+end 
+// Bi[ 6 ]
+initial
+begin
+	Bi[6] = 1'b0;
+	Bi[6] = #50000 1'b1;
+	Bi[6] = #50000 1'b0;
+	Bi[6] = #200000 1'b1;
+	Bi[6] = #50000 1'b0;
+	Bi[6] = #50000 1'b1;
+	Bi[6] = #50000 1'b0;
+	Bi[6] = #50000 1'b1;
+	Bi[6] = #150000 1'b0;
+	Bi[6] = #150000 1'b1;
+	Bi[6] = #50000 1'b0;
+end 
+// Bi[ 5 ]
+initial
+begin
+	Bi[5] = 1'b0;
+	Bi[5] = #200000 1'b1;
+	Bi[5] = #350000 1'b0;
+	Bi[5] = #100000 1'b1;
+	Bi[5] = #50000 1'b0;
+	Bi[5] = #150000 1'b1;
+	Bi[5] = #50000 1'b0;
+end 
+// Bi[ 4 ]
+initial
+begin
+	Bi[4] = 1'b0;
+	Bi[4] = #50000 1'b1;
+	Bi[4] = #50000 1'b0;
+	Bi[4] = #50000 1'b1;
+	Bi[4] = #100000 1'b0;
+	Bi[4] = #50000 1'b1;
+	Bi[4] = #50000 1'b0;
+	Bi[4] = #50000 1'b1;
+	Bi[4] = #150000 1'b0;
+	Bi[4] = #200000 1'b1;
+	Bi[4] = #150000 1'b0;
+	Bi[4] = #50000 1'b1;
+end 
+// Bi[ 3 ]
+initial
+begin
+	Bi[3] = 1'b0;
+	Bi[3] = #100000 1'b1;
+	Bi[3] = #50000 1'b0;
+	Bi[3] = #50000 1'b1;
+	Bi[3] = #50000 1'b0;
+	Bi[3] = #50000 1'b1;
+	Bi[3] = #100000 1'b0;
+	Bi[3] = #200000 1'b1;
+	Bi[3] = #100000 1'b0;
+	Bi[3] = #50000 1'b1;
+	Bi[3] = #150000 1'b0;
+end 
+// Bi[ 2 ]
+initial
+begin
+	Bi[2] = 1'b0;
+	Bi[2] = #200000 1'b1;
+	Bi[2] = #50000 1'b0;
+	Bi[2] = #100000 1'b1;
+	Bi[2] = #100000 1'b0;
+	Bi[2] = #200000 1'b1;
+	Bi[2] = #50000 1'b0;
+	Bi[2] = #50000 1'b1;
+	Bi[2] = #50000 1'b0;
+	Bi[2] = #50000 1'b1;
+	Bi[2] = #100000 1'b0;
+end 
+// Bi[ 1 ]
+initial
+begin
+	Bi[1] = 1'b1;
+	Bi[1] = #300000 1'b0;
+	Bi[1] = #50000 1'b1;
+	Bi[1] = #200000 1'b0;
+	Bi[1] = #50000 1'b1;
+	Bi[1] = #100000 1'b0;
+	Bi[1] = #50000 1'b1;
+	Bi[1] = #150000 1'b0;
+end 
+// Bi[ 0 ]
+initial
+begin
+	Bi[0] = 1'b1;
+	Bi[0] = #100000 1'b0;
+	Bi[0] = #100000 1'b1;
+	Bi[0] = #300000 1'b0;
+	Bi[0] = #50000 1'b1;
+	Bi[0] = #50000 1'b0;
+	Bi[0] = #50000 1'b1;
+	Bi[0] = #100000 1'b0;
+end 
+
+// M
+always
+begin
+	M = 1'b0;
+	M = #25000 1'b1;
+	#25000;
+end 
+
+// S1
+always
+begin
+	S1 = 1'b0;
+	S1 = #12500 1'b1;
+	#12500;
+end 
+
+// S0
+always
+begin
+	S0 = 1'b0;
+	S0 = #6250 1'b1;
+	#6250;
+end 
+endmodule
+

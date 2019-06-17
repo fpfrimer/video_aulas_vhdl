@@ -1,0 +1,33 @@
+# do ula.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:31:10 on Jun 17,2019
+# vlog -work work ula.vo 
+# -- Compiling module ula
+# 
+# Top level modules:
+# 	ula
+# End time: 08:31:10 on Jun 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:31:10 on Jun 17,2019
+# vlog -work work simul.vwf.vt 
+# -- Compiling module ula_vlg_vec_tst
+# 
+# Top level modules:
+# 	ula_vlg_vec_tst
+# End time: 08:31:10 on Jun 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.ula_vlg_vec_tst 
+# Start time: 08:31:10 on Jun 17,2019
+# Loading work.ula_vlg_vec_tst
+# Loading work.ula
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# after#23
+# ** Note: $stop    : simul.vwf.vt(52)
+#    Time: 1 us  Iteration: 0  Instance: /ula_vlg_vec_tst
+# Break in Module ula_vlg_vec_tst at simul.vwf.vt line 52
+# Stopped at simul.vwf.vt line 52
+# End time: 08:31:11 on Jun 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
