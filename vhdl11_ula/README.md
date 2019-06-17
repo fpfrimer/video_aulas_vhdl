@@ -1,4 +1,4 @@
-# Instruções para o código da aula 11
+# Instruções para acessar a simulação do código da aula 11
 No Quartus, reompile o projeto e acesse o arquivo simul.vwf.
 
 ## Diagrama da ULA
