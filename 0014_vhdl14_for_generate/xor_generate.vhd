@@ -24,8 +24,8 @@ begin
 
     o <= a(n);
     a(1) <= i(1);
-    g1: for i in 2 to n generate
-        a(i) <= i(i) xor a(i - 1);
+    g1: for x in 2 to n generate
+        a(x) <= i(x) xor a(x - 1);
     end generate g1;
     
 

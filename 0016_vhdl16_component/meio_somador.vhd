@@ -1,0 +1,4 @@
+-- Curso de VHDL #16
+-- Meio somador em VHDL
+-- Autor: Felipe W. D. Pfrimer
+-- Data: 08/07/2019

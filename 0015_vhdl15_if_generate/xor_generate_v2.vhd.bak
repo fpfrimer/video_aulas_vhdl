@@ -1,0 +1,51 @@
+-- Curso de VHDL #15
+-- Porta XOR de n entradas
+-- Autor: Felipe W. D. Pfrimer
+-- Data: 02/07/2019
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity xor_generate is
+  generic(
+    n   :   natural := 8 -- número de entradas
+  );
+  port (
+    i   :   in      std_logic_vector(1 to n);
+    o   :   out     std_logic
+  ) ;
+end xor_generate;
+
+architecture main of xor_generate is
+    
+    signal  a     :   std_logic_vector(2 to n - 1);
+
+begin
+
+    -- 
+    -- o <= a(n);
+    -- a(1) <= i(1);
+    -- g1: for x in 2 to n generate
+    --     a(x) <= i(x) xor a(x - 1);
+    -- end generate g1;
+
+    
+    g1: for x in 2 to n generate
+        -- Primeira porta
+        g2: if x = 2 generate
+            a(2) <= i(1) xor i(2);
+        end generate g2;
+
+        -- ultima porta
+        g3: if x = n generate
+            o <= i(n) xor i(n-1);
+        end generate g3;
+
+        -- intermediárias
+        g4: if x > 1 and x < n generate
+          a(x) <= i(x) xor a(x-1);
+        end generate g4;
+    end generate g1;
+    
+
+end main ; -- main
