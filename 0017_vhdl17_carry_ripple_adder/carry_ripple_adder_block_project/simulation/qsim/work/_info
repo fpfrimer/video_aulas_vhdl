@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_ripple_adder_block_project/simulation/qsim
+vcarry_ripple
+Z1 !s110 1563128106
+!i10b 1
+!s100 AIMP1^X9W]8P=>zQeeoPg0
+In:k8d_2OL3KQP[6nLnMe12
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1563128105
+8carry_ripple.vo
+Fcarry_ripple.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1563128106.000000
+!s107 carry_ripple.vo|
+!s90 -work|work|carry_ripple.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcarry_ripple_vlg_vec_tst
+R1
+!i10b 1
+!s100 d9W`0h@=ZA?MA]^A=?Bm=0
+IU0IRU5VC<XnR1gHmjmnBN0
+R2
+R0
+w1563128104
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

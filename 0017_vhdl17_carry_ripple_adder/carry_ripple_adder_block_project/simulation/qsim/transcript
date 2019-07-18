@@ -1,0 +1,32 @@
+# do carry_ripple.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:06 on Jul 14,2019
+# vlog -work work carry_ripple.vo 
+# -- Compiling module carry_ripple
+# 
+# Top level modules:
+# 	carry_ripple
+# End time: 15:15:06 on Jul 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:15:06 on Jul 14,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module carry_ripple_vlg_vec_tst
+# 
+# Top level modules:
+# 	carry_ripple_vlg_vec_tst
+# End time: 15:15:06 on Jul 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.carry_ripple_vlg_vec_tst 
+# Start time: 15:15:06 on Jul 14,2019
+# Loading work.carry_ripple_vlg_vec_tst
+# Loading work.carry_ripple
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#25
+# ** Note: $finish    : Waveform.vwf.vt(68)
+#    Time: 1 us  Iteration: 0  Instance: /carry_ripple_vlg_vec_tst
+# End time: 15:15:07 on Jul 14,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

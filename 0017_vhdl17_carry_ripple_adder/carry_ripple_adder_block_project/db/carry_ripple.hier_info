@@ -1,0 +1,121 @@
+|carry_ripple
+CARRY_OUT <= full_adder:inst.CARRY
+A3 => full_adder:inst.A
+B3 => full_adder:inst.B
+A2 => full_adder:inst1.A
+B2 => full_adder:inst1.B
+A1 => full_adder:inst2.A
+B1 => full_adder:inst2.B
+A0 => full_adder:inst3.A
+B0 => full_adder:inst3.B
+CARRY_IN => full_adder:inst3.CARRY_IN
+S3 <= full_adder:inst.SUM
+S2 <= full_adder:inst1.SUM
+S1 <= full_adder:inst2.SUM
+S0 <= full_adder:inst3.SUM
+
+
+|carry_ripple|full_adder:inst
+SUM <= half_adder:inst1.SUM
+A => half_adder:inst.A
+B => half_adder:inst.B
+CARRY_IN => half_adder:inst1.B
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst|half_adder:inst1
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst|half_adder:inst
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst1
+SUM <= half_adder:inst1.SUM
+A => half_adder:inst.A
+B => half_adder:inst.B
+CARRY_IN => half_adder:inst1.B
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst1|half_adder:inst1
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst1|half_adder:inst
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst2
+SUM <= half_adder:inst1.SUM
+A => half_adder:inst.A
+B => half_adder:inst.B
+CARRY_IN => half_adder:inst1.B
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst2|half_adder:inst1
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst2|half_adder:inst
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst3
+SUM <= half_adder:inst1.SUM
+A => half_adder:inst.A
+B => half_adder:inst.B
+CARRY_IN => half_adder:inst1.B
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst3|half_adder:inst1
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple|full_adder:inst3|half_adder:inst
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+CARRY <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
