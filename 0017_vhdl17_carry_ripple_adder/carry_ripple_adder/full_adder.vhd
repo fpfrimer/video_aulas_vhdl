@@ -46,4 +46,4 @@ begin
     ha2: half_adder
         port map(x, CARRY_IN, SUM, Z);
 
-end rtl ; -- rtl
+end rtl ; -- rtl 
