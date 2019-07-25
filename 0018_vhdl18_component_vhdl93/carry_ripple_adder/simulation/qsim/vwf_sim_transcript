@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off carry_ripple_4bit_adder -c carry_ripple_4bit_adder --vector_source="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/Waveform.vwf" --testbench_file="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/Waveform.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off carry_ripple_4bit_adder -c carry_ripple_4bit_adder --vector_source="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/Waveform1.vwf" --testbench_file="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/Waveform1.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,8 +25,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Mon Jul 15 19:39:34 2019
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off carry_ripple_4bit_adder -c carry_ripple_4bit_adder --vector_source=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/Waveform.vwf --testbench_file=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/Waveform.vwf.vht
+    Info: Processing started: Sun Jul 21 18:37:40 2019
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off carry_ripple_4bit_adder -c carry_ripple_4bit_adder --vector_source=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/Waveform1.vwf --testbench_file=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/Waveform1.vwf.vht
 Info (119006): Selected device 5CGXFC7C7F23C8 for design "carry_ripple_4bit_adder"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -34,7 +34,7 @@ Completed successfully.
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/" carry_ripple_4bit_adder -c carry_ripple_4bit_adder
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/" carry_ripple_4bit_adder -c carry_ripple_4bit_adder
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -52,22 +52,22 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Mon Jul 15 19:39:35 2019
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/ carry_ripple_4bit_adder -c carry_ripple_4bit_adder
+    Info: Processing started: Sun Jul 21 18:37:42 2019
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/ carry_ripple_4bit_adder -c carry_ripple_4bit_adder
 Info (119006): Selected device 5CGXFC7C7F23C8 for design "carry_ripple_4bit_adder"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file carry_ripple_4bit_adder.vho in folder "D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file carry_ripple_4bit_adder.vho in folder "D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4738 megabytes
-    Info: Processing ended: Mon Jul 15 19:39:36 2019
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4737 megabytes
+    Info: Processing ended: Sun Jul 21 18:37:44 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/carry_ripple_4bit_adder.do generated.
+D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/carry_ripple_4bit_adder.do generated.
 
 Completed successfully. 
 
@@ -82,8 +82,10 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # do carry_ripple_4bit_adder.do
 
+# ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:39:38 on Jul 15,2019
+# Start time: 18:37:50 on Jul 21,2019
 # vcom -work work carry_ripple_4bit_adder.vho 
 
 # -- Loading package STANDARD
@@ -91,29 +93,31 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package altera_lnsim_components
+
 # -- Loading package VITAL_Timing
 # -- Loading package VITAL_Primitives
 # -- Loading package cyclonev_atom_pack
 # -- Loading package cyclonev_components
 # -- Compiling entity carry_ripple_4bit_adder
-
 # -- Compiling architecture structure of carry_ripple_4bit_adder
-# End time: 19:39:39 on Jul 15,2019, Elapsed time: 0:00:01
+
+# End time: 18:37:51 on Jul 21,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:39:39 on Jul 15,2019
-# vcom -work work Waveform.vwf.vht 
+# Start time: 18:37:51 on Jul 21,2019
+# vcom -work work Waveform1.vwf.vht 
 # -- Loading package STANDARD
+
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity carry_ripple_4bit_adder_vhd_vec_tst
 # -- Compiling architecture carry_ripple_4bit_adder_arch of carry_ripple_4bit_adder_vhd_vec_tst
-# End time: 19:39:39 on Jul 15,2019, Elapsed time: 0:00:00
+# End time: 18:37:51 on Jul 21,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.carry_ripple_4bit_adder_vhd_vec_tst 
-# Start time: 19:39:40 on Jul 15,2019
+# Start time: 18:37:52 on Jul 21,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -128,22 +132,22 @@ Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading cyclonev.cyclonev_io_obuf(arch)
 # Loading cyclonev.cyclonev_io_ibuf(arch)
 # Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
-# after#30
+# after#32
 
-# End time: 19:39:40 on Jul 15,2019, Elapsed time: 0:00:00
+# End time: 18:37:54 on Jul 21,2019, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/Waveform.vwf...
+Reading D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/Waveform1.vwf...
 
-Reading D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/carry_ripple_4bit_adder.msim.vcd...
+Reading D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/carry_ripple_4bit_adder.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim/carry_ripple_4bit_adder_20190715193941.sim.vwf
+Writing the resulting VWF to D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0018_vhdl18_component_vhdl93/carry_ripple_adder/simulation/qsim/carry_ripple_4bit_adder_20190721183754.sim.vwf
 
 Finished VCD to VWF conversion.
 

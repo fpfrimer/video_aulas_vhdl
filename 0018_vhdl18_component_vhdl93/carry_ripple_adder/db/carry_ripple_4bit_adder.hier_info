@@ -1,0 +1,91 @@
+|carry_ripple_4bit_adder
+A[0] => full_adder:FA1.A
+A[1] => full_adder:FA2.A
+A[2] => full_adder:FA3.A
+A[3] => full_adder:FA4.A
+B[0] => full_adder:FA1.B
+B[1] => full_adder:FA2.B
+B[2] => full_adder:FA3.B
+B[3] => full_adder:FA4.B
+CARRY_IN => full_adder:FA1.CARRY_IN
+S[0] << full_adder:FA1.SUM
+S[1] << full_adder:FA2.SUM
+S[2] << full_adder:FA3.SUM
+S[3] << full_adder:FA4.SUM
+CARRY_OUT << full_adder:FA4.CARRY
+
+
+|carry_ripple_4bit_adder|full_adder:FA1
+A => half_adder:ha1.A
+B => half_adder:ha1.B
+CARRY_IN => half_adder:ha2.B
+SUM <= half_adder:ha2.SUM
+CARRY <= CARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA1|half_adder:ha1
+A => SUM.IN0
+A => CARRY.IN0
+B => SUM.IN1
+B => CARRY.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= CARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA1|half_adder:ha2
+A => Mux0.IN4
+A => Mux1.IN4
+B => Mux0.IN5
+B => Mux1.IN5
+SUM <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA2
+A => Mux0.IN8
+A => Mux1.IN8
+B => Mux0.IN9
+B => Mux1.IN9
+CARRY_IN => Mux0.IN10
+CARRY_IN => Mux1.IN10
+SUM <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA3
+A => half_adder:ha1.A
+B => half_adder:ha1.B
+CARRY_IN => half_adder:ha2.B
+SUM <= half_adder:ha2.SUM
+CARRY <= CARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA3|half_adder:ha1
+A => SUM.IN0
+A => CARRY.IN0
+B => SUM.IN1
+B => CARRY.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= CARRY.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA3|half_adder:ha2
+A => Mux0.IN4
+A => Mux1.IN4
+B => Mux0.IN5
+B => Mux1.IN5
+SUM <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|carry_ripple_4bit_adder|full_adder:FA4
+A => Mux0.IN8
+A => Mux1.IN8
+B => Mux0.IN9
+B => Mux1.IN9
+CARRY_IN => Mux0.IN10
+CARRY_IN => Mux1.IN10
+SUM <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+CARRY <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
