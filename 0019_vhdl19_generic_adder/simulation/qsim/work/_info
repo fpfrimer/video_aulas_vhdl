@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0019_vhdl19_generic_adder/simulation/qsim
+Ecarry_ripple_adder
+Z1 w1564088869
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+R0
+Z9 8carry_ripple_adder.vho
+Z10 Fcarry_ripple_adder.vho
+l0
+L36
+VUKH[J=GeB1VHG@J4hjlfF2
+!s100 PQoRe5D6RZ?gaG:ELnLY<0
+Z11 OV;C;10.5b;63
+32
+!s110 1564088871
+!i10b 1
+Z12 !s108 1564088871.000000
+Z13 !s90 -work|work|carry_ripple_adder.vho|
+Z14 !s107 carry_ripple_adder.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 18 carry_ripple_adder 0 22 UKH[J=GeB1VHG@J4hjlfF2
+l154
+L46
+Vof^9kHQP>^PD8_k2;;B4l2
+!s100 ;NEecUR9GU`UP944Z]WoV2
+R11
+32
+Z17 !s110 1564088872
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecarry_ripple_adder_vhd_vec_tst
+Z18 w1564088868
+R6
+R7
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L31
+VJM8lfT9]Roh`T3^]5ToeR0
+!s100 KdHV7_h3eM7^:B4<bjZ8j0
+R11
+32
+R17
+!i10b 1
+Z21 !s108 1564088872.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Acarry_ripple_adder_arch
+R6
+R7
+DEx4 work 30 carry_ripple_adder_vhd_vec_tst 0 22 JM8lfT9]Roh`T3^]5ToeR0
+l50
+L33
+V<m^X=gc]:kC0k;YE95Fg<3
+!s100 MSdzi]@z`6_1m@jkB`@B23
+R11
+32
+R17
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16
