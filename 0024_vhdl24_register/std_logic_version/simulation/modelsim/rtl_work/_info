@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/simulation/modelsim
+Ereg_std
+Z1 w1564945981
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std.vhd
+Z5 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std.vhd
+l0
+L14
+V`W;APIMll2cAfhkk186G;1
+!s100 ?;YRJ3i>6HPoiXkb;OiTL3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1564948447
+!i10b 1
+Z8 !s108 1564948447.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std.vhd|
+Z10 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 7 reg_std 0 22 `W;APIMll2cAfhkk186G;1
+l27
+L26
+VmASY;?CKWRgH3S^UQ3k6g1
+!s100 48YE[ZcL?b=O0OG<kPBY:0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_std_tb
+Z14 w1564948399
+R2
+R3
+R0
+Z15 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std_tb.vhd
+Z16 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std_tb.vhd
+l0
+L4
+V@BB3NP<NoSh=C;E`zkEWX1
+!s100 X<=ffJRd:ME=3Pj7CXzVD2
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std_tb.vhd|
+Z18 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/std_logic_version/reg_std_tb.vhd|
+!i113 1
+R11
+R12
+Asim
+R13
+R2
+R3
+DEx4 work 10 reg_std_tb 0 22 @BB3NP<NoSh=C;E`zkEWX1
+l15
+L8
+VA>FXjefh]6>a^Ua0G9iU01
+!s100 >6mWXTgEo^4:7cU@4Z`T;3
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

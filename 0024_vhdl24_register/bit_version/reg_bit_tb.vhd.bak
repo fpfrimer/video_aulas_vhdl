@@ -1,0 +1,26 @@
+entity reg_bit_tb is
+    constant n  :   integer := 1;
+end entity;
+
+architecture sim of reg_bit_tb is
+
+    signal clk, rst :   bit;
+    signal data     :	bit_vector(n - 1 downto 0);
+    signal q_sinc   :	bit_vector(n - 1 downto 0);
+    signal q_asinc  :	bit_vector(n - 1 downto 0);
+
+begin
+
+    dut1: entity work.reg_bit(sinc)  generic map(n) port map(clk, rst, data, q_sinc);
+    dut2: entity work.reg_bit(asinc) generic map(n) port map(clk, rst, data, q_asinc);
+
+    clk <= '0', not clk after 50 ns;
+    rst <= '1';
+
+    data <= '0',
+            '1' after 120 ns,
+            '0' after 170 ns,
+            '1' after 255 ns,
+            '0' after 340 ns; 
+
+end sim ; -- sim

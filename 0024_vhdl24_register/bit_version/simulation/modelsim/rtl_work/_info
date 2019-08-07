@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/simulation/modelsim
+Ereg_bit
+Z1 w1564932225
+R0
+Z2 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit.vhd
+Z3 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit.vhd
+l0
+L11
+VD>m14fXZkZ9[dhUcgFVDK3
+!s100 ]07N2Y3TQkC4[NSRJ8LcB2
+Z4 OV;C;10.5b;63
+31
+Z5 !s110 1564933468
+!i10b 1
+Z6 !s108 1564933468.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit.vhd|
+Z8 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit.vhd|
+!i113 1
+Z9 o-93 -work work
+Z10 tExplicit 1 CvgOpt 0
+Async
+Z11 DEx4 work 7 reg_bit 0 22 D>m14fXZkZ9[dhUcgFVDK3
+l50
+L49
+VWKBKBgK<bj[bBPM6C927S3
+!s100 6gS<PcOndS:=FG7kAMX_;1
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Aasync
+R11
+l25
+L24
+V?:P:RB00HVX16cV48=2U;0
+!s100 XZGnhcSz5`k4@BP`@<hFV1
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Ereg_bit_tb
+Z12 w1564932439
+R0
+Z13 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit_tb.vhd
+Z14 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit_tb.vhd
+l0
+L1
+V_gKC_CZ9?dINhSNYe1:]S3
+!s100 3XMe7H[[`:26D]AAKhALj1
+R4
+31
+R5
+!i10b 1
+R6
+Z15 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit_tb.vhd|
+Z16 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0024_vhdl24_register/bit_version/reg_bit_tb.vhd|
+!i113 1
+R9
+R10
+Asim
+R11
+DEx4 work 10 reg_bit_tb 0 22 _gKC_CZ9?dINhSNYe1:]S3
+l12
+L5
+VLS<7lDf39ZbV:S@kWb0n13
+!s100 =JAeaeo8UkjD35G?0KgUT1
+R4
+31
+R5
+!i10b 1
+R6
+R15
+R16
+!i113 1
+R9
+R10
