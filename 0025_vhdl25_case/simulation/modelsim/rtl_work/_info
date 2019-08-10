@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/simulation/modelsim
+Emux_case
+Z1 w1565390890
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case.vhd
+Z5 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case.vhd
+l0
+L9
+V:@EGSabY;lheM8TKboV>83
+!s100 UQj8o0QhenaZVU4XL?mYU1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1565392474
+!i10b 1
+Z8 !s108 1565392474.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case.vhd|
+Z10 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+Z13 DEx4 work 8 mux_case 0 22 :@EGSabY;lheM8TKboV>83
+l18
+L17
+Vo^kE;3ZM@^5D03>OTE5JF3
+!s100 NCQ`_@j01KdlE2z5DE_lQ1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_case_tb
+Z14 w1565391677
+R2
+R3
+R0
+Z15 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case_tb.vhd
+Z16 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case_tb.vhd
+l0
+L9
+VX95m:jzBc9mJPdb4]R`V82
+!s100 B_6LdUbE`=o0X>e4502Y32
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case_tb.vhd|
+Z18 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/mux_case_tb.vhd|
+!i113 1
+R11
+R12
+Asim
+R13
+R2
+R3
+DEx4 work 11 mux_case_tb 0 22 X95m:jzBc9mJPdb4]R`V82
+l18
+L12
+V:<anE>mBZg]>WDfkXilYD2
+!s100 bFAP@FT0VTF0AQQ4V>X0l2
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
