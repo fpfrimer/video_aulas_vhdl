@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/simulation/modelsim
+Esignal_gen
+Z1 w1565532998
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd
+Z5 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd
+l0
+L9
+V35Hem^oAOL3C1MAGA;V1W1
+!s100 DVRkh`>WPEENOHYbUN=M63
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1565537872
+!i10b 1
+Z8 !s108 1565537872.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd|
+Z10 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+Z13 DEx4 work 10 signal_gen 0 22 35Hem^oAOL3C1MAGA;V1W1
+l36
+L28
+VO1ZFZYf03N=Gmh_^a8L^@1
+!s100 ohj1[7m9PW4gglWe1h>700
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esignal_gen_tb
+Z14 w1565537861
+R2
+R3
+R0
+Z15 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd
+Z16 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd
+l0
+L9
+VD6Q1?iA8E;0WhOkV9<M@T2
+!s100 z`=Nf1gBD3_RZbGa0aH>12
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd|
+Z18 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd|
+!i113 1
+R11
+R12
+Asim
+R13
+R2
+R3
+DEx4 work 13 signal_gen_tb 0 22 D6Q1?iA8E;0WhOkV9<M@T2
+l21
+L12
+VLW4_gQz:kfFSB`:<id:?H3
+!s100 eF3`PVd<TL`j04Abg80RH1
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
