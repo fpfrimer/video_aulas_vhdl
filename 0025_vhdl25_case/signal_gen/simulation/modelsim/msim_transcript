@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:37:52 on Aug 11,2019
+# Start time: 16:48:34 on Aug 11,2019
 # vcom -reportprogress 300 -93 -work work D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -23,12 +23,12 @@
 # ** Warning: D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd(74): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd(77): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen.vhd(80): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 12:37:52 on Aug 11,2019, Elapsed time: 0:00:00
+# End time: 16:48:34 on Aug 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 4
 # 
 # vcom -93 -work work {D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:37:52 on Aug 11,2019
+# Start time: 16:48:34 on Aug 11,2019
 # vcom -reportprogress 300 -93 -work work D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/signal_gen/signal_gen_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -36,12 +36,12 @@
 # -- Compiling entity signal_gen_tb
 # -- Compiling architecture sim of signal_gen_tb
 # -- Loading entity signal_gen
-# End time: 12:37:52 on Aug 11,2019, Elapsed time: 0:00:00
+# End time: 16:48:34 on Aug 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  signal_gen_tb
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" signal_gen_tb 
-# Start time: 12:37:52 on Aug 11,2019
+# Start time: 16:48:34 on Aug 11,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -54,9 +54,9 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 200 ms
-# ** Note: pulse duration = 2000000000 ps
-#    Time: 20999990 ns  Iteration: 3  Instance: /signal_gen_tb
+# ** Note: pulse duration = 200000000 ps
+#    Time: 20099990 ns  Iteration: 3  Instance: /signal_gen_tb
 # ** Note: Frequency = 5.000000e+01 Hz
-#    Time: 38999990 ns  Iteration: 3  Instance: /signal_gen_tb
-# End time: 12:39:47 on Aug 11,2019, Elapsed time: 0:01:55
+#    Time: 39899990 ns  Iteration: 3  Instance: /signal_gen_tb
+# End time: 16:49:44 on Aug 11,2019, Elapsed time: 0:01:10
 # Errors: 0, Warnings: 0
