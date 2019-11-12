@@ -38,13 +38,6 @@ begin
 	
 end architecture; 
 
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------
 architecture sync of reg_bit is
 	begin
