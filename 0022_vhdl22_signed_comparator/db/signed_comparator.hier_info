@@ -1,0 +1,12 @@
+|signed_comparator
+a[0] => LessThan0.IN4
+a[1] => LessThan0.IN3
+a[2] => LessThan0.IN2
+a[3] => LessThan0.IN1
+b[0] => LessThan0.IN8
+b[1] => LessThan0.IN7
+b[2] => LessThan0.IN6
+b[3] => LessThan0.IN5
+a_gt_b <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

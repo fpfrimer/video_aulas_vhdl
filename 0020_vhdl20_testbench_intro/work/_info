@@ -1,0 +1,67 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Cursos_youtube\VHDL\codes\Workspace\video_aulas_vhdl\0020_vhdl20_testbench_intro
+Eclk_rst_tb
+Z1 w1564601855
+Z2 dD:\Cursos_youtube\VHDL\codes\Workspace\video_aulas_vhdl\0020_vhdl20_testbench_intro
+Z3 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/clk_rst_tb.vhd
+Z4 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/clk_rst_tb.vhd
+l0
+L6
+VJnfJo2bA`bR^PBKT3j;al0
+!s100 e6K?ERf]bNnTMZ3ZE46J42
+Z5 OV;C;10.1d;51
+32
+!i10b 1
+Z6 !s108 1569928368.880000
+Z7 !s90 -reportprogress|300|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/clk_rst_tb.vhd|
+Z8 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/clk_rst_tb.vhd|
+Z9 o-work work -O0
+Z10 tExplicit 1
+Asim
+DEx4 work 10 clk_rst_tb 0 22 JnfJo2bA`bR^PBKT3j;al0
+l14
+L9
+VHB7AZgHzja[OZ_d`2S<@N0
+!s100 Ol_]W0ELWY<4Ajo[f6]Cz1
+R5
+32
+!i10b 1
+R6
+R7
+R8
+R9
+R10
+Ehello_tb
+Z11 w1569928135
+R2
+Z12 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/hello_tb.vhd
+Z13 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/hello_tb.vhd
+l0
+L7
+V:dj^dD9k^PnDmW]lF1V>i1
+R5
+32
+Z14 !s108 1569928147.816000
+Z15 !s90 -reportprogress|300|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/hello_tb.vhd|
+Z16 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0020_vhdl20_testbench_intro/hello_tb.vhd|
+R9
+R10
+!s100 `Pf=E_IFdbD_Sk7RbV`ge2
+!i10b 1
+Asim
+DEx4 work 8 hello_tb 0 22 :dj^dD9k^PnDmW]lF1V>i1
+l11
+L10
+VB6G<hic;GJLihJAaUbfXj0
+R5
+32
+R14
+R15
+R16
+R9
+R10
+!s100 noa5CABP_>:C^dIJEB6Io0
+!i10b 1

@@ -1,0 +1,34 @@
+|shift_reg
+d => aux[9].DATAIN
+clk => aux[0].CLK
+clk => aux[1].CLK
+clk => aux[2].CLK
+clk => aux[3].CLK
+clk => aux[4].CLK
+clk => aux[5].CLK
+clk => aux[6].CLK
+clk => aux[7].CLK
+clk => aux[8].CLK
+clk => aux[9].CLK
+rst => aux[0].ACLR
+rst => aux[1].ACLR
+rst => aux[2].ACLR
+rst => aux[3].ACLR
+rst => aux[4].ACLR
+rst => aux[5].ACLR
+rst => aux[6].ACLR
+rst => aux[7].ACLR
+rst => aux[8].ACLR
+rst => aux[9].ACLR
+led[0] << aux[0].DB_MAX_OUTPUT_PORT_TYPE
+led[1] << aux[1].DB_MAX_OUTPUT_PORT_TYPE
+led[2] << aux[2].DB_MAX_OUTPUT_PORT_TYPE
+led[3] << aux[3].DB_MAX_OUTPUT_PORT_TYPE
+led[4] << aux[4].DB_MAX_OUTPUT_PORT_TYPE
+led[5] << aux[5].DB_MAX_OUTPUT_PORT_TYPE
+led[6] << aux[6].DB_MAX_OUTPUT_PORT_TYPE
+led[7] << aux[7].DB_MAX_OUTPUT_PORT_TYPE
+led[8] << aux[8].DB_MAX_OUTPUT_PORT_TYPE
+led[9] << aux[9].DB_MAX_OUTPUT_PORT_TYPE
+
+

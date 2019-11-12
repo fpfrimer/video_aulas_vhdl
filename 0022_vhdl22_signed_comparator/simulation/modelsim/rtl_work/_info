@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/simulation/modelsim
+Esigned_comparator
+Z1 w1564677892
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator.vhd
+Z6 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator.vhd
+l0
+L10
+VDRDg<zD0?HTmHCO5@9KE51
+!s100 Mlol^T9zjP7>N@6F2Z6IR3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1571742563
+!i10b 1
+Z9 !s108 1571742563.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator.vhd|
+Z11 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 17 signed_comparator 0 22 DRDg<zD0?HTmHCO5@9KE51
+l22
+L21
+VLchXLKd9PET;M[AM@A][a2
+!s100 1DOk0ImfMc<1H0TzE@F:A3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esigned_comparator_tb
+Z15 w1564692946
+R2
+R3
+R4
+R0
+Z16 8D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator_tb.vhd
+Z17 FD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator_tb.vhd
+l0
+L10
+VG]b4fmRgMTDTJRP_JdNIG0
+!s100 [_AW^PCKIYHWdiM@ib8:[0
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator_tb.vhd|
+Z19 !s107 D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0022_vhdl22_signed_comparator/signed_comparator_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R14
+R2
+R3
+R4
+DEx4 work 20 signed_comparator_tb 0 22 G]b4fmRgMTDTJRP_JdNIG0
+l27
+L20
+VDaFAP?zn<hZ:0bKbBb]^<3
+!s100 o5;M3HJ5PG7K0Y?Jc=JfO1
+R7
+31
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

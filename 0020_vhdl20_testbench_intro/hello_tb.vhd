@@ -11,7 +11,7 @@ architecture sim of hello_tb is
 begin
 
     process is
-    begin    
+    begin
         report "Hello World!";
         wait;
     end process;

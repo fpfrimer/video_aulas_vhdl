@@ -12,19 +12,19 @@
 # 
 # vcom -93 -work work {D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/counter5/cont5_fsm.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:03:14 on Aug 25,2019
+# Start time: 08:54:04 on Oct 22,2019
 # vcom -reportprogress 300 -93 -work work D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/counter5/cont5_fsm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity cont5_fsm
 # -- Compiling architecture main of cont5_fsm
-# End time: 10:03:14 on Aug 25,2019, Elapsed time: 0:00:00
+# End time: 08:54:04 on Oct 22,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/counter5/cont5_fsm_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:03:14 on Aug 25,2019
+# Start time: 08:54:04 on Oct 22,2019
 # vcom -reportprogress 300 -93 -work work D:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0025_vhdl25_case/counter5/cont5_fsm_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -32,12 +32,12 @@
 # -- Compiling entity cont5_fsm_tb
 # -- Compiling architecture test of cont5_fsm_tb
 # -- Loading entity cont5_fsm
-# End time: 10:03:14 on Aug 25,2019, Elapsed time: 0:00:00
+# End time: 08:54:04 on Oct 22,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  cont5_fsm_tb
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" cont5_fsm_tb 
-# Start time: 10:03:15 on Aug 25,2019
+# Start time: 08:54:04 on Oct 22,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -50,5 +50,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1 us
-# End time: 10:20:24 on Aug 25,2019, Elapsed time: 0:17:09
+# End time: 08:56:26 on Oct 22,2019, Elapsed time: 0:02:22
 # Errors: 0, Warnings: 0

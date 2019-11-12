@@ -8,91 +8,84 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_pipple_adder/simulation/qsim
-Ecarry_ripple_4bit_adder
-Z1 w1563230376
-Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
-Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z5 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
-Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
-R0
-Z9 8carry_ripple_4bit_adder.vho
-Z10 Fcarry_ripple_4bit_adder.vho
-l0
-L36
-V?WX>X;fKn<CSP38oS?Jca3
-!s100 z:W9_aFNV0cnHLFa`Wc_[1
-Z11 OV;C;10.5b;63
-32
-Z12 !s110 1563230379
+vcarry_ripple_4bit_adder
+Z1 !s110 1569325462
 !i10b 1
-Z13 !s108 1563230378.000000
-Z14 !s90 -work|work|carry_ripple_4bit_adder.vho|
-Z15 !s107 carry_ripple_4bit_adder.vho|
+!s100 [FzUY4GL95nP8UR=CR<Wk2
+I2TLU@3BCO0bCmYHaVcFCh3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Cursos_youtube/VHDL/codes/Workspace/video_aulas_vhdl/0017_vhdl17_carry_ripple_adder/carry_ripple_adder/simulation/qsim
+w1569325459
+8carry_ripple_4bit_adder.vo
+Fcarry_ripple_4bit_adder.vo
+L0 31
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1569325462.000000
+!s107 carry_ripple_4bit_adder.vo|
+!s90 -work|work|carry_ripple_4bit_adder.vo|
 !i113 1
-Z16 o-work work
-Z17 tExplicit 1 CvgOpt 0
-Astructure
-R2
-R3
-R4
-R5
-R6
-R7
-R8
-DEx4 work 23 carry_ripple_4bit_adder 0 22 ?WX>X;fKn<CSP38oS?Jca3
-l92
-L46
-VkhRQW?TnSBI1lB94jciA:1
-!s100 cfnBeajdZjKIUC_MO8mae2
-R11
-32
-R12
-!i10b 1
-R13
-R14
-R15
-!i113 1
-R16
-R17
+Z6 o-work work
+Z7 tCvgOpt 0
 Ecarry_ripple_4bit_adder_vhd_vec_tst
-Z18 w1563230375
-R6
-R7
+Z8 w1563230375
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z19 8Waveform.vwf.vht
-Z20 FWaveform.vwf.vht
+Z11 8Waveform.vwf.vht
+Z12 FWaveform.vwf.vht
 l0
 L31
 V6^S[7G:Z?Qm;4kEBX1g[h1
 !s100 FVPY=IMO[B81Yc1K=N7DV2
-R11
+Z13 OV;C;10.5b;63
 32
-R12
+Z14 !s110 1563230379
 !i10b 1
-Z21 !s108 1563230379.000000
-Z22 !s90 -work|work|Waveform.vwf.vht|
-Z23 !s107 Waveform.vwf.vht|
+Z15 !s108 1563230379.000000
+Z16 !s90 -work|work|Waveform.vwf.vht|
+Z17 !s107 Waveform.vwf.vht|
 !i113 1
-R16
-R17
-Acarry_ripple_4bit_adder_arch
 R6
-R7
+Z18 tExplicit 1 CvgOpt 0
+Acarry_ripple_4bit_adder_arch
+R9
+R10
 DEx4 work 35 carry_ripple_4bit_adder_vhd_vec_tst 0 22 6^S[7G:Z?Qm;4kEBX1g[h1
 l50
 L33
 VXK?IG4>>QRS8zcoF8biSA3
 !s100 UKP0z_71;f4RIISI[>59L3
-R11
+R13
 32
-R12
+R14
 !i10b 1
-R21
-R22
-R23
-!i113 1
+R15
 R16
 R17
+!i113 1
+R6
+R18
+vcarry_ripple_4bit_adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 E6_DO4LK0S0J=WB^12kTC0
+I2[;E75Wk05bN9dBjn@F1j2
+R2
+R3
+w1569325458
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
